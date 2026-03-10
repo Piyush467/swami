@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base styles */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply font-sans text-text-primary antialiased bg-white;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif font-semibold;
+  }
+}
+
+/* Custom component styles */
+@layer components {
+  /* Button variants */
+  .btn-primary {
+    @apply bg-primary text-white px-6 py-3 rounded-full font-medium transition-all duration-300 hover:shadow-button;
+  }
+
+  .btn-secondary {
+    @apply bg-white text-text-primary border border-border-orange px-6 py-3 rounded-full font-medium transition-all duration-300 hover:bg-cream;
+  }
+
+  .btn-outline {
+    @apply border border-white/30 text-text-primary px-6 py-3 rounded-full font-medium transition-all duration-300 hover:bg-white/10;
+  }
+
+  .btn-white {
+    @apply bg-white text-text-primary px-6 py-3 rounded-full font-medium transition-all duration-300 hover:bg-cream;
+  }
+
+  /* Card styles */
+  .card {
+    @apply bg-white rounded-4xl shadow-card transition-all duration-300 hover:shadow-card-hover;
+  }
+
+  .card-bordered {
+    @apply bg-white rounded-4xl border-8 border-white shadow-soft;
+  }
+
+  /* Section container */
+  .section-container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  /* Gradient text */
+  .gradient-text {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-secondary to-primary;
+  }
+
+  /* Badge styles */
+  .badge {
+    @apply inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium;
+  }
+
+  .badge-orange {
+    @apply bg-orange-100 text-orange-700;
+  }
+
+  .badge-cream {
+    @apply bg-cream text-text-primary;
+  }
+
+  /* Navbar pill */
+  .navbar-pill {
+    @apply bg-white rounded-full shadow-navbar px-2 py-2;
+  }
+
+  .nav-link {
+    @apply px-4 py-2 rounded-full text-body font-medium text-text-secondary transition-all duration-300 hover:text-primary;
+  }
+
+  .nav-link-active {
+    @apply px-4 py-2 rounded-full text-body font-medium text-white bg-primary;
+  }
+
+  /* Footer gradient */
+  .footer-gradient {
+    background: conic-gradient(from 180deg at 50% 50%, #990D13 0deg, #FF6916 360deg);
+  }
+}
+
+/* Custom utilities */
+@layer utilities {
+  /* Backdrop blur support */
+  .backdrop-blur-custom {
+    backdrop-filter: blur(4px);
+  }
+
+  /* Hide scrollbar */
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Text balance */
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  /* Gradient border */
+  .gradient-border {
+    position: relative;
+    background: white;
+    border-radius: 32px;
+  }
+
+  .gradient-border::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    padding: 2px;
+    border-radius: 32px;
+    background: linear-gradient(135deg, #FF6916, #990D13);
+    -webkit-mask: 
+      linear-gradient(#fff 0 0) content-box, 
+      linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+  }
+}
+
+/* Responsive typography */
+@media (max-width: 768px) {
+  .text-hero {
+    font-size: 40px;
+  }
+  .text-heading-1 {
+    font-size: 32px;
+  }
+  .text-heading-2 {
+    font-size: 28px;
+  }
+  .text-heading-3 {
+    font-size: 24px;
+  }
+}
