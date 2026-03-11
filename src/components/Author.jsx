@@ -1,5 +1,5 @@
 import React from "react";
-import swamiImage from "../../assets/swami.png";
+import swamiImage from "../assets/swami.png";
 
 const Author = () => {
   return (
