@@ -6,7 +6,7 @@ import Author from "../../components/Author";
 
 export default function ServicePage(){
     return (
-    <main className="bg-cream min-h-screen pt-24">
+    <main className="bg-[#FFFCDD] min-h-screen pt-24">
       <HeroSection/>
       <ExperientialSection/>
       <ChoosePathSection/>

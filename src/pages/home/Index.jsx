@@ -9,7 +9,7 @@ import Author from "../../components/Author";
 
 export default function Home() {
   return (
-    <main className="bg-cream min-h-screen">
+    <main className="bg-[#FFFCDD] min-h-screen">
 
       <HeroSection />
       <StorytellingMastery />

@@ -6,7 +6,7 @@ import Footer from './components/Footer';
 // Lazy load pages for better performance
 const Home = lazy(() => import('./pages/home/Index'));
 const Service = lazy(() => import('./pages/service'));
-const Books = lazy(() => import('./pages/Books'));
+const Books = lazy(() => import('./pages/books'));
 const Products = lazy(() => import('./pages/Products'));
 const Academy = lazy(() => import('./pages/Academy'));
 const Blog = lazy(() => import('./pages/Blog'));
