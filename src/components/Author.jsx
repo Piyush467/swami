@@ -5,7 +5,7 @@ const Author = () => {
   return (
     <section className="py-12 md:py-16">
       <div className="section-container px-4">
-        <div className="bg-white rounded-3xl lg:rounded-4xl p-6 md:p-8 lg:p-12 shadow-sm">
+        <div className="bg-[#FFFCDD] border-8 border-white rounded-3xl lg:rounded-4xl p-6 md:p-8 lg:p-12 shadow-sm">
           <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
 
             {/* Left Content */}

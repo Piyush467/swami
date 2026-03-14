@@ -1,0 +1,161 @@
+import p1 from "../../assets/images/product-1.png";
+import p2 from "../../assets/images/product-2.png";
+import p3 from "../../assets/images/product-3.jpg";
+import p4 from "../../assets/images/product-4.jpg";
+import p5 from "../../assets/images/product-5.png";
+import p6 from "../../assets/images/product-6.jpg";
+import p7 from "../../assets/images/product-7.png";
+import p8 from "../../assets/images/product-8.jpg";
+import p9 from "../../assets/images/product-9.png";
+import p10 from "../../assets/images/product-10.png";
+import p11 from "../../assets/images/product-11.png";
+import p12 from "../../assets/images/product-12.png";
+import p13 from "../../assets/images/product-13.png";
+
+const products = [
+  {
+    id: 1,
+    name: "Be The Light Everyday Unisex Tee",
+    price: 21.99,
+    image: p1,
+    colors: ["#C32A48", "#086390", "#7A8069", "#FF6916","#04557B"],
+    bestseller: true,
+    category: "Mens",
+    rating: 5,
+    reviews: 89,
+  },
+  {
+    id: 2,
+    name: "ChakraVeda Crewneck Unisex T-Shirt",
+    price: 29.99,
+    image: p2,
+    colors: ["#C32A48", "#086390", "#7A8069", "#FF6916","#04557B"],
+    bestseller: false,
+    category: "Mens",
+    rating: 4,
+    reviews: 89,
+  },
+  {
+    id: 3,
+    name: "ChakraVeda Crewneck Unisex T-Shirt",
+    price: 40.99,
+    image: p3,
+    colors: ["#00C49A", "#1E90FF", "#000000"],
+    bestseller: true,
+    category: "Womens",
+    rating: 5,
+    reviews: 89,
+  },
+  {
+    id: 4,
+    name: "Radiance Women's Relaxed T-Shirt",
+    price: 40.99,
+    image: p4,
+    colors: ["#FF4D4D", "#000000", "#00C49A"],
+    bestseller: false,
+    category: "Womens",
+    rating: 5,
+    reviews: 89,
+  },
+  {
+    id: 5,
+    name: "Radiance Unisex garment-dyed hoodie",
+    price: 46.99,
+    image: p5,
+    colors: ["#000080", "#000000"],
+    bestseller: true,
+    category: "Unisex",
+    rating: 5,
+    reviews: 89,
+  },
+  {
+    id: 6,
+    name: "Radiance Unisex garment-dyed hoodie",
+    price: 29.99,
+    image: p6,
+    colors: ["#FF6916", "#FF6916","#FF6916","#FF6916"],
+    bestseller: false,
+    category: "Unisex",
+    rating: 4,
+    reviews: 89,
+  },
+  {
+    id: 7,
+    name: "Root Trucker Hat— Radiant Light ...",
+    price: 24.99,
+    image: p7,
+    colors: ["#FF6916", "#FF6916","#FF6916","#FF6916"],
+    bestseller: true,
+    category: "Hat",
+    rating: 5,
+    reviews: 89,
+  },
+  {
+    id: 8,
+    name: "ChakraVeda Energy Hat — Radiant",
+    price: 19.99,
+    image: p8,
+    colors: ["#FF0000", "#000000","#FF6916"],
+    bestseller: false,
+     category: "Hat",
+    rating: 4,
+    reviews: 89,
+  },
+  {
+    id: 9,
+    name: "Daily Wellness Hardcover Journal Matte",
+    price: 13.99,
+    image: p9,
+    colors: ["#908E54"],
+    bestseller: false,
+     category: "Matte",
+    rating: 4,
+    reviews: 89,
+  },
+  {
+    id: 10,
+    name: "ChakraVeda Hardcover journal matte",
+    price: 22.99,
+    image: p10,
+    colors: ["#908E54"],
+    bestseller: true,
+     category: "Matte",
+    rating: 5,
+    reviews: 89,
+  },
+  {
+    id: 11,
+    name: "Radiant Daily Wellness Journal",
+    price: 19.99,
+    image: p11,
+    colors: ["#CC1830","#174893", "#24AAA1","#F07F26","#ADADAD","#D0DB1C"],
+    bestseller: false,
+     category: "NoteBook",
+    rating: 4,
+    reviews: 89,
+  },
+  {
+    id: 12,
+    name: "ChakraVeda Reflection Journal",
+    price: 19.99,
+    image: p12,
+    colors:["#CC1830","#174893", "#24AAA1","#F07F26","#ADADAD","#D0DB1C"],
+    bestseller: true,
+    category: "NoteBook",
+    rating: 5,
+    reviews: 89,
+  },
+  {
+    id: 13,
+    name: "Daily Wellness Hardcover Journal Matte",
+    price: 13.99,
+    image: p13,
+    colors: ["#908E54"],
+    bestseller: false,
+    category: "Matte",
+    rating: 4,
+    reviews: 89,
+  },
+];
+
+export default products;
