@@ -11,6 +11,7 @@ const Products = lazy(() => import('./pages/products'));
 const Academy = lazy(() => import('./pages/Academy'));
 const Blog = lazy(() => import('./pages/Blog'));
 const Contact = lazy(() => import('./pages/Contact'));
+import PrivacyPolicy from "./pages/PrivacyPolicy";
 
 // Loading component
 function PageLoader() {
@@ -39,6 +40,7 @@ function App() {
               <Route path="/academy" element={<Academy />} />
               <Route path="/blog" element={<Blog />} />
               <Route path="/contact" element={<Contact />} />
+                <Route path="/privacy" element={<PrivacyPolicy />} />
             </Routes>
           </main>
         </Suspense>
