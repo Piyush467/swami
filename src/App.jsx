@@ -9,9 +9,10 @@ const Service = lazy(() => import('./pages/service'));
 const Books = lazy(() => import('./pages/books'));
 const Products = lazy(() => import('./pages/products'));
 const Academy = lazy(() => import('./pages/academy'));
-const Blog = lazy(() => import('./pages/Blog'));
 const Contact = lazy(() => import('./pages/Contact'));
 import PrivacyPolicy from "./pages/PrivacyPolicy";
+import BlogSection from "./components/BlogSection";
+import BlogDetail from "./pages/BlogDetail";
 
 // Loading component
 function PageLoader() {
@@ -38,9 +39,11 @@ function App() {
               <Route path="/books" element={<Books />} />
               <Route path="/products" element={<Products />} />
               <Route path="/academy" element={<Academy />} />
-              <Route path="/blog" element={<Blog />} />
+              
               <Route path="/contact" element={<Contact />} />
                 <Route path="/privacy" element={<PrivacyPolicy />} />
+                  <Route path="/blog" element={<BlogSection />} />
+  <Route path="/blog/:id" element={<BlogDetail />} />
             </Routes>
           </main>
         </Suspense>
