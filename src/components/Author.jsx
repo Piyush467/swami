@@ -36,7 +36,7 @@ const Author = () => {
               <img
                 src={swamiImage}
                 alt="Swami"
-                className="w-[240px] sm:w-[280px] md:w-[320px] lg:w-[400px] h-auto object-contain scale-x-[-1] lg:-translate-y-4"
+                className="w-[280px] sm:w-[320px] md:w-[400px] lg:w-[500px] h-auto object-contain scale-x-[-1] lg:-translate-y-4"
               />
             </div>
 

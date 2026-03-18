@@ -10,7 +10,7 @@ const courses = [
     title: "21 Days of Joy",
     desc: "A guided journey into emotional freedom and daily practices",
     price: "$399",
-    btnColor: "bg-[#FF6B35]",
+    btnColor: "bg-[#E7000B]",
   },
   {
     tag: "LIVE CERTIFICATION",
@@ -39,7 +39,7 @@ export default function Hero() {
       {/* ================= HERO ================= */}
 
       <section className="relative w-full h-[75vh] min-h-[520px] overflow-hidden rounded-b-[50px] ">
-        
+
         {/* Background Image */}
         <img
           src={heroImg}
@@ -52,7 +52,7 @@ export default function Hero() {
 
         {/* Text */}
         <div className="absolute left-6 md:left-16 bottom-20 text-white max-w-xl">
-          
+
           <h1
             className="text-[32px] md:text-[40px] leading-tight font-bold tracking-[-0.03em]"
             style={{ fontFamily: "Playfair Display" }}
@@ -79,12 +79,12 @@ export default function Hero() {
       {/* ================= COURSES ================= */}
 
       <section className="bg-[#FFF8F0] py-16 px-4 md:px-12">
-        
+
         <div className="max-w-[1280px] mx-auto">
 
           {/* Heading */}
           <div className="text-center mb-12">
-            
+
             <h2
               className="text-3xl md:text-[40px] font-bold tracking-[-0.03em]"
               style={{ fontFamily: "Playfair Display" }}
@@ -108,7 +108,7 @@ export default function Hero() {
               >
                 {/* Gradient Header */}
                 <div className={`bg-gradient-to-r ${course.gradient} p-4`}>
-                  
+
                   {/* White Tag */}
                   <div
                     className="inline-block bg-white px-2 py-[2px] rounded-[8px] text-[12px] font-medium"

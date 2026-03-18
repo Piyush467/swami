@@ -78,21 +78,31 @@ export default function BooksGrid() {
                   {book.desc}
                 </p>
 
+
                 {/* Button */}
-                <button className="
-                  mt-4
-                  bg-[#FF6916]
-                  text-white
-                  px-4 py-2
-                  rounded-full
-                  text-xs sm:text-sm font-semibold
-                  shadow-md
-                  hover:shadow-lg
-                  hover:-translate-y-0.5
-                  transition duration-300
-                ">
-                  Buy on Amazon
-                </button>
+                {/* Button */}
+                <a
+                  href="https://www.amazon.in/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button
+                    className="
+      mt-4
+      bg-[#FF6916]
+      text-white
+      px-4 py-2
+      rounded-full
+      text-xs sm:text-sm font-semibold
+      shadow-md
+      hover:shadow-lg
+      hover:-translate-y-0.5
+      transition duration-300
+    "
+                  >
+                    Buy on Amazon
+                  </button>
+                </a>
 
                 {/* ===== Row Divider ===== */}
                 <div className="

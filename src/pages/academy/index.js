@@ -1,1 +1,1 @@
-export {default} from "./AcademyPage";
+export { default } from "./AcademyPage";
