@@ -6,7 +6,7 @@ export default function BlogSection() {
   const navigate = useNavigate();
 
   return (
-    <section className="w-full py-20 md:py-24 bg-[#F5EFCF]">
+    <section className="w-full py-20 md:py-24 bg-[#FFFCDD]">
       <div className="max-w-[1080px] mx-auto px-4">
 
         {/* ===== Heading ===== */}

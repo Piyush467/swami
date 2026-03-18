@@ -91,16 +91,16 @@ const ProductHero = () => {
               bg-[#F5F5F5]
               rounded-3xl
               overflow-hidden
-              flex items-center justify-center
+              flex items-end justify-center
             ">
 
               <img
                 src={product.image}
                 alt={product.name}
                 className="
-                  max-h-full
+                  h-full
                   w-auto
-                  object-contain
+                  object-cover
                   transition-transform
                   duration-500
                   group-hover:scale-105

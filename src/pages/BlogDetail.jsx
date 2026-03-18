@@ -9,7 +9,7 @@ export default function BlogDetail() {
   if (!blog) return <div>Blog not found</div>;
 
   return (
-    <section className="bg-[#F5EFCF] py-16 md:py-24">
+    <section className="bg-[#FFFCDD] py-16 md:py-24">
 
       <div className="max-w-[1200px] mx-auto px-4">
 

@@ -27,7 +27,7 @@ const cards = [
 
 export default function ExperientialSection() {
   return (
-    <section className="bg-white rounded-t-[24px] md:rounded-t-[36px] py-12 md:py-16">
+    <section className="bg-[#FFFCDD] rounded-t-[24px] md:rounded-t-[36px] py-12 md:py-16">
       <div className="max-w-[1216px] mx-auto px-4 sm:px-6">
 
         {/* ===== Heading ===== */}

@@ -49,7 +49,7 @@ const plans = [
 
 export default function ChoosePathSection() {
   return (
-    <section className="bg-cream py-12 md:py-16 lg:py-20">
+    <section className="bg-[#FFFCDD] py-12 md:py-16 lg:py-20">
       <div className="max-w-[1120px] mx-auto px-4 sm:px-6 text-center">
 
         {/* ===== Investment Pill ===== */}

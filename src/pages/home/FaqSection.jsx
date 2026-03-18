@@ -39,7 +39,7 @@ export default function FaqSection() {
   };
 
   return (
-    <section className="w-full bg-white py-16 md:py-20 lg:py-[80px]">
+    <section className="w-full bg-[#FFFCDD] py-16 md:py-20 lg:py-[80px]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
         {/* TITLE */}

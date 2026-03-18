@@ -4,7 +4,7 @@ import swamiImage from "../../assets/swami.png";
 
 export default function HeroSection() {
   return (
-    <section className="relative bg-[#F6EED8] pt-24 md:pt-28 lg:pt-32 pb-16 md:pb-20 overflow-hidden">
+    <section className="relative bg-[#FFFCDD] pt-24 md:pt-28 lg:pt-32 pb-16 md:pb-20 overflow-hidden">
 
       <div className="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-6 grid grid-cols-1 lg:grid-cols-2 items-center gap-10 lg:gap-12">
 
