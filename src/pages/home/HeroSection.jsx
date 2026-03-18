@@ -56,7 +56,7 @@ export default function HeroSection() {
 
           </div>
           {/* Info Boxes */}
-          <div className="flex flex-col sm:flex-row mt-12 ap-6">
+          <div className="flex flex-col sm:flex-row mt-12 gap-4 sm:gap-6">
 
             <div className="flex items-center gap-3
                               bg-white px-4 py-3 rounded-xl shadow-sm">
